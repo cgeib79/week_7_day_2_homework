@@ -1,0 +1,44 @@
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+h1{
+  font-family: 'Black Ops One', cursive;
+  color: #5F9EA0;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+form {
+    width: 15%;
+    height: 10%;
+    color: white;
+    font-family: 'Iceland';
+  }
+
+input[type=submit] {
+    width: 65%;
+    background-color: #5F9EA0;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Iceland', cursive;
+    padding: 7px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    resize: vertical;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+}
